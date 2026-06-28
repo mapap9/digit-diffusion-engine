@@ -1,7 +1,7 @@
 # Digit Diffusion Engine (DDE)
 ### *The Convergence of Latent Chaos*
 
-A raw PyTorch, ground-up implementation of a class-conditioned Parametric Number Diffusion Engine. This repository maps the boundary between stochastic noise distributions and high-dimensional geometric order, utilizing a deep multi-stage U-Net with explicit residual blocks to synthesize perfectly coherent digits from absolute chaos.
+A raw PyTorch, ground-up implementation of a class-conditioned Parametric Number Diffusion Engine trained using the MNIST dataset. This repository maps the boundary between stochastic noise distributions and high-dimensional geometric order, utilizing a deep multi-stage U-Net with explicit residual blocks to synthesize perfectly coherent digits from absolute chaos.
 
 ### Repository Structure
 ```
@@ -38,7 +38,7 @@ The timeline below profiles the actual structural evolution of the model's rever
 * **Mathematical State:** The conditioning pathways are nearing full convergence. The label embedding layer has successfully carved out distinct regional boundaries, entirely resolving the earlier aliasing errors (e.g., `5` has completely split from `2`). The network is now executing fine-grained coordinate tracking; complex multi-loop digits (like `3` and `8`) are experiencing top-level geometric corrections as the sampler locks onto clean target modes.
 * ![Epoch 25 Convergence](outputs/generation_grid_epoch_25.png)
 
-#### Epoch 50: Flawless Global Manifold Crystallization
+#### Epoch 50: Flawless Global Manifold Generation
 * **Mathematical State:** The gradient updates have successfully optimized the deep structural layers down to the $7\times7$ bottleneck. The model resolves global composition perfectly: curves are anti-aliased, loops close tightly, and distinct stylistic variations (like the European serif on the digit `1`) are naturally synthesized without memorization.
 * ![Epoch 50 Convergence](outputs/generation_grid_epoch_50.png)
 
